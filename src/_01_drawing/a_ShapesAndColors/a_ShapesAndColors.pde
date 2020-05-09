@@ -13,7 +13,10 @@
 
 //    The ellipse command looks like this:      
  //   ellipse(250,250, 100,100);
- ellipse(250,0,100,100);
+ fill(#AA212A);
+ ellipse(100,100,100,10);
+ 
+
 //    The first 2 numbers specify where to draw it. They are the x and y co-ordinates of the center of the ellipse.
 //    The third and fourth numbers are the size of the ellipse.
 //    The width is specified before the height. If they are the same, it draws a circle
@@ -23,7 +26,8 @@
 
 //    The rect command looks like this:       
 //   rect(250,250, 100,100);
-rect(250,250,100,100);
+  fill(#B762A9);
+  rect(250,250,100,100);
 
 //    Like the ellipse, the fist 2 numbers specify where to draw it, the other two are its size.
 //    The main difference is the x and y co-ordinates are the top left corner of the shape.
@@ -37,13 +41,15 @@ rect(250,250,100,100);
 
 //    Color is added with the fill command that looks like this:       fill(  );
 
-    fill(#711E1E);
-     ellipse(100, 300, 100,100);
-
 
 //    Paste the code for your selected color between the parentheses.
 //    It should now look something like this (the code will be different):   
 //fill(#FFA850);
+
+fill(#6C2A86);
+ellipse(400,250, 200, 200);
+
+
 
 
 
