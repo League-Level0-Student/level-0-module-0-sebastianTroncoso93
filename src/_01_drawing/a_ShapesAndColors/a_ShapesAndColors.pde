@@ -4,7 +4,7 @@
 // 2. Code a size command to make it big enough for your picture
 
 //    The size command looks like this:      
-  size(500,500);
+  size(100,100);
 //    Try putting different numbers in the parentheses.
 //    See if you can figure out which number is the width, and which is the height
 
@@ -13,8 +13,7 @@
 
 //    The ellipse command looks like this:      
  //   ellipse(250,250, 100,100);
- fill(#AA212A);
- ellipse(100,100,100,10);
+ 
  
 
 //    The first 2 numbers specify where to draw it. They are the x and y co-ordinates of the center of the ellipse.
@@ -26,8 +25,6 @@
 
 //    The rect command looks like this:       
 //   rect(250,250, 100,100);
-  fill(#B762A9);
-  rect(250,250,100,100);
 
 //    Like the ellipse, the fist 2 numbers specify where to draw it, the other two are its size.
 //    The main difference is the x and y co-ordinates are the top left corner of the shape.
@@ -45,10 +42,6 @@
 //    Paste the code for your selected color between the parentheses.
 //    It should now look something like this (the code will be different):   
 //fill(#FFA850);
-
-fill(#6C2A86);
-ellipse(400,250, 200, 200);
-
 
 
 
